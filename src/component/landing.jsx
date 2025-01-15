@@ -39,31 +39,37 @@ const TravelLandingPage = () => {
           className="w-full h-full object-cover rounded-lg"
         />
         <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
-          <h2 className="text-4xl font-bold text-white">Explore More</h2>
+        <h2 className="text-4xl font-bold text-white">Welcome to Sri Lanka</h2>
         </div>
+        <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center mt-16">
+        <h2 className="text-4xl font-bold text-white">Explore More</h2>
+        </div>
+          
+      
+        
       </div>
 
-      {/* Top Destinations */}
+    
       <section className="py-12 px-4">
         <h2 className="text-2xl font-bold mb-8">Top Destinations</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {[{
-            name: 'Bali',
+            name: 'Ella',
             price: 50,
-            img: './Images/5.png'
+            img: './Images/6.png'
           },
           {
-            name: 'Santorini',
+            name: 'Kandy',
             price: 120,
-            img: './Images/13.png'          },
+            img: './Images/22.png'          },
           {
-            name: 'Dubai',
+            name: 'Galle',
             price: 400,
-            img: './Images/10.png'          },
+            img: './Images/28.png'          },
           {
-            name: 'Rio de Janeiro',
+            name: 'Colombo',
             price: 200,
-            img: './Images/8.png'          }
+            img: './Images/24.png'          }
 
           ].map((destination) => (
             <div key={destination.name} className="relative rounded-lg overflow-hidden h-64">
